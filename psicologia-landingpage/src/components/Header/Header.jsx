@@ -4,11 +4,11 @@ import LOGO from '../../assets/LOGO2.png'
   return (
     <div>
 
-    <nav class="dark:bg-primary-dark bg-gradient-to-r from-zinc-950 to-transparent">
-      <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+    <nav class="dark:bg-primary-dark bg-gradient-to-r from-zinc-950 to-transparent border-b-[#032536] border-b-2">
+      <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4  ">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={LOGO} class="h-44 -my-10" alt="Flowbite Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-blue-light">
                 
             </span>
         </a>
@@ -19,21 +19,26 @@ import LOGO from '../../assets/LOGO2.png'
             </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-          <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+          <ul class="flex flex-col gap-8 font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <li>
-              <a href="#" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">
+              <a href="#" class="block text-xl py-2 px-3 md:p-0 text-blue-light bg-blue-light rounded md:bg-transparent md:blue-light md:dark:hover:text-primary-blue
+               dark:bg-blue-light md:dark:bg-transparent" aria-current="page">
                 Sobre</a>
             </li>
+            
             <li>
-              <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+              <a href="#" class="block text-xl  py-2 px-3 md:p-0 text-blue-light rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0
+               md:hover:text-blue-light dark:text-blue-light md:dark:hover:text-primary-blue dark:hover:bg-gray-700 dark:hover:text-blue-light md:dark:hover:bg-transparent">
                 Serviços</a>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+              <a href="#" class="block text-xl  py-2 px-3 md:p-0 text-blue-light rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0
+               md:hover:text-blue-light dark:text-blue-light md:dark:hover:text-primary-blue dark:hover:bg-gray-700 dark:hover:text-blue-light md:dark:hover:bg-transparent">
                 Preços</a>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+              <a href="#" class="block text-xl  py-2 px-3 md:p-0 text-blue-light rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0
+               md:hover:text-blue-light dark:text-blue-light md:dark:hover:text-primary-blue dark:hover:bg-gray-700 dark:hover:text-blue-light md:dark:hover:bg-transparent">
                 Contato</a>
             </li>
           </ul>

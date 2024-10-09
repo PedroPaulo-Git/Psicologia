@@ -13,7 +13,7 @@ import H1Image from '../../assets/H1Image.png'
 */}
 
 <section className="overflow-hidden sm:grid sm:grid-cols-2 items-center bg-gradient-to-r from-zinc-950 to-transparent ">
-  <div className="p-8 md:p-12 lg:px-16 flex-col flex m-auto">
+  <div className="p-8 md:p-12 lg:px-16 lg:pt-0  flex-col flex m-auto ">
     <div className="mx-auto max-w-2xl text-left ltr:sm:text-left rtl:sm:text-right">
       <h2 className="text-9xl text-blue-light md:text-8xl relative">
       <img className="absolute w-64 right-10 -top-20 " src={H1Image} alt="" />
