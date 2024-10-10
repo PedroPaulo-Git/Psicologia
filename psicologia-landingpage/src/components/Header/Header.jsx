@@ -1,11 +1,11 @@
 import React from 'react'
-import LOGO from '../../assets/LOGO2.png'
+import LOGO from '../../assets/LogoWhite.png'
  const Header = () => {
   return (
     <div>
 
     <nav class="dark:bg-primary-dark bg-gradient-to-r from-zinc-950 to-transparent border-b-[#032536] border-b-2">
-      <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4  ">
+      <div class="max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto p-4 px-32  ">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={LOGO} class="h-44 -my-10" alt="Flowbite Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-blue-light">

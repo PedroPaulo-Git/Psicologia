@@ -1,6 +1,8 @@
 import React from 'react'
 import BackgroundAbout from '../../assets/BackgroundAbout.png'
 import Brain from '../../assets/brain2.png'
+
+
 const About = () => {
     return (
         <div className='bg-primary-dark border-b-[#032536] border-b-4 relative'>
