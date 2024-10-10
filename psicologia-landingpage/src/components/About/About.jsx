@@ -5,7 +5,7 @@ import Brain from '../../assets/brain2.png'
 
 const About = () => {
     return (
-        <div className='bg-primary-dark border-b-[#032536] border-b-4 relative'>
+        <div className='bg-primary-dark border-b-[#032536] border-b-4 relative' id='sobre'>
             <section>
                 <img
                     alt=""

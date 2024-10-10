@@ -21,12 +21,13 @@ import H1Image from '../../assets/H1Image.png'
       </p>
 
       <div className="mt-4 md:mt-8">
-        <a
-          href="#"
-          className="inline-block rounded bg-primary-blue px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
-        >
-          Agendar Consulta
-        </a>
+      <a
+    href="#"
+    className="inline-block rounded-3xl bg-primary-blue px-12 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-[#111928] shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-blue"
+>
+    Agendar Consulta
+</a>
+
       </div>
     </div>
   </div>

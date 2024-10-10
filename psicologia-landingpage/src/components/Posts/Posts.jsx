@@ -9,18 +9,18 @@ import Post7 from '../../assets/post7.jpg';
 import Post8 from '../../assets/post8.jpg';
 
 const posts = [
-    { id: 1, image: Post1, alt: 'Post 1', link: '/post1' },
-    { id: 2, image: Post2, alt: 'Post 2', link: '/post2' },
-    { id: 3, image: Post3, alt: 'Post 3', link: '/post3' },
+    { id: 1, image: Post1, alt: 'Post 1', link: 'https://www.instagram.com/p/C-T019wtcKd/' },
+    { id: 2, image: Post2, alt: 'Post 2', link: 'https://www.instagram.com/p/C53O0SasqWS/' },
+    { id: 3, image: Post3, alt: 'Post 3', link: 'https://www.instagram.com/p/C_1LbpPv6xN/' },
     { id: 4, image: Post4, alt: 'Post 4', link: 'https://www.instagram.com/p/C_35jDsPow4/' },
     { id: 5, image: Post5, alt: 'Post 5', link: 'https://www.instagram.com/p/C_3HUOLvmow/' },
-    { id: 6, image: Post6, alt: 'Post 6', link: '/post6' },
-    { id: 7, image: Post7, alt: 'Post 7', link: '/post7' },
+    { id: 6, image: Post6, alt: 'Post 6', link: 'https://www.instagram.com/p/C_YXf_Jvpql/' },
+    { id: 7, image: Post7, alt: 'Post 7', link: 'https://www.instagram.com/p/C_T5xfhvZsN/' },
     { id: 8, image: Post8, alt: 'Post 8', link: 'https://www.instagram.com/p/C_tiXlcvLVd/' },
 ];
 const Posts = () => {
     return (
-        <div className='bg-[#111928]'>
+        <div className='bg-[#111928]' id='posts'>
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
                 <div className="mx-auto max-w-3xl text-center">
                     <h2 className="text-3xl font-medium text-primary-blue  sm:text-6xl">Insights sobre Psicologia</h2>

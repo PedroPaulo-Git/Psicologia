@@ -3,7 +3,7 @@ import LOGO from '../../assets/LOGO2.png'
  const Footer = () => {
   return (
     <div>
-<footer className="bg-gradient-to-r from-[#111928] to-[#1c2330]">
+<footer className="bg-gradient-to-r from-[#111928] to-[#1c2330]" id='contato'>
   <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="flex justify-center text-teal-600">
       <img src={LOGO} alt="Logo Psicologia" className='w-36' />
@@ -13,30 +13,28 @@ import LOGO from '../../assets/LOGO2.png'
     Oferecemos suporte emocional e psicológico personalizado, ajudando você a encontrar equilíbrio e bem-estar
     em sua jornada.
     </p>
-
     <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-      <li>
-        <a className="text-blue-light transition hover:text-gray-700/75" href="#"> Sobre </a>
-      </li>
+  <li>
+    <a className="text-blue-light transition hover:text-gray-700/75" href="#sobre"> Sobre </a>
+  </li>
 
-      <li>
-        <a className="text-blue-light transition hover:text-gray-700/75" href="#"> Carreira </a>
-      </li>
+  <li>
+    <a className="text-blue-light transition hover:text-gray-700/75" href="#carreira"> Carreira </a>
+  </li>
 
-      <li>
-        <a className="text-blue-light transition hover:text-gray-700/75" href="#"> Serviços </a>
-      </li>
+  <li>
+    <a className="text-blue-light transition hover:text-gray-700/75" href="#servicos"> Serviços </a>
+  </li>
 
-      <li>
-        <a className="text-blue-light transition hover:text-gray-700/75" href="#"> Posts </a>
-      </li>
+  <li>
+    <a className="text-blue-light transition hover:text-gray-700/75" href="#posts"> Posts </a>
+  </li>
 
-      <li>
-        <a className="text-blue-light transition hover:text-gray-700/75" href="#"> Contato </a>
-      </li>
+  <li>
+    <a className="text-blue-light transition hover:text-gray-700/75" href="#contato"> Contato </a>
+  </li>
+</ul>
 
-     
-    </ul>
 
     <ul className="mt-12 flex justify-center gap-6 md:gap-8">
       <li>

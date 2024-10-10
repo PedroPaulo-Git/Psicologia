@@ -7,7 +7,7 @@ import { MdOutlineHandshake } from "react-icons/md";
 const Services = () => {
     return (
         <div>
-            <section className="bg-gray-900 text-white bg-gradient-to-b from-primary-dark to-transparent ">
+            <section className="bg-gray-900 text-white bg-gradient-to-b from-primary-dark to-transparent " id='servicos'>
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                     <div className="mx-auto max-w-3xl text-center">
                         <h2 className="text-9xl text-primary-blue md:text-7xl mt-5">
