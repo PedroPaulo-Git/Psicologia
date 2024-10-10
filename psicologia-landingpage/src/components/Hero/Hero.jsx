@@ -6,12 +6,6 @@ import H1Image from '../../assets/H1Image.png'
   return (
     <div className='h-[100%] bg-primary-dark'>
    
-        {/*
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-*/}
-
 <section className="overflow-hidden sm:grid sm:grid-cols-2 items-center bg-gradient-to-r from-zinc-950 to-transparent ">
   <div className="p-8 md:p-12 lg:px-16 lg:pt-0  flex-col flex m-auto ">
     <div className="mx-auto max-w-2xl text-left ltr:sm:text-left rtl:sm:text-right">
