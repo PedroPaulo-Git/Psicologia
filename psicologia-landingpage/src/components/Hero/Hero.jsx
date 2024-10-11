@@ -4,7 +4,7 @@ import H1Image from '../../assets/H1Image.png'
 
 const Hero = () => {
   return (
-    <div className='h-[100%] bg-primary-dark'>
+    <div className='h-[100%] bg-primary-dark' id='hero'>
 
       <section className="overflow-hidden sm:grid sm:grid-cols-1 items-center bg-gradient-to-r from-zinc-950 to-transparent ">
         <div className="p-8 md:p-12 lg:px-16 lg:pt-0  flex-col flex m-auto ">

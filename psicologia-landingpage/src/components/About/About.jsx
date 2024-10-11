@@ -9,7 +9,7 @@ const About = () => {
             <section>
                 <img
                     alt=""
-                    src={Brain} className="absolute w-3/4 bottom-0 opacity-5 "
+                    src={Brain} className="absolute h-1/2 object-cover lg:w-3/4 bottom-0 opacity-5 "
                 />
                 <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 sm:py-12 lg:px-16 lg:py-44">
 
@@ -35,7 +35,7 @@ const About = () => {
                                 te guiando na busca por uma vida mais leve e equilibrada.
                             </p>
 
-                            <div className="mt-4 md:mt-8">
+                            <div className="mt-4 md:mt-8 text-center lg:text-left">
 
                                 <a
                                     href="#"
