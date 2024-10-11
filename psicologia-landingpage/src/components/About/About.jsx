@@ -14,10 +14,10 @@ const About = () => {
                 <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 sm:py-12 lg:px-16 lg:py-44">
 
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 ">
-                        <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+                        <div className="relative h-72 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
                             <img
                                 alt=""
-                                src={BackgroundAbout} className="absolute inset-0 h-full w-full object-cover"
+                                src={BackgroundAbout} className="absolute inset-0 object-cover rounded-lg h-full mx-auto "
                             />
                         </div>
 
@@ -28,7 +28,7 @@ const About = () => {
                                 <span className="shrink-0 px-6 text-[#8ecae6]">Quem Somos</span>
                                 <span className="h-px flex-1 bg-[#8ecae6]"></span>
                             </span>
-                            <h2 className="text-9xl text-primary-blue md:text-8xl mt-5">Sobre Nós</h2>
+                            <h2 className="text-3xl text-primary-blue md:text-8xl mt-5">Sobre Nós</h2>
 
                             <p className="mt-4  text-blue-light md:mt-4 md:block md:text-xl">
                                 Somos um casal de psicoterapeutas dedicados a ajudar você a alcançar bem-estar emocional e mental. Atuamos com empatia e experiência em áreas como depressão, ansiedade, autismo e saúde mental. Nosso objetivo é proporcionar um atendimento personalizado, acolhedor e focado nas suas necessidades,
@@ -36,12 +36,14 @@ const About = () => {
                             </p>
 
                             <div className="mt-4 md:mt-8">
+
                                 <a
                                     href="#"
-                                    className="inline-block rounded bg-primary-blue px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                                    className="inline-block rounded-3xl bg-primary-blue px-12 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-[#1b4a61] shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-blue"
                                 >
                                     Conhecer Mais
                                 </a>
+
                             </div>
 
                         </div>

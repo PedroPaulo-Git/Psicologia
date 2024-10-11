@@ -7,6 +7,8 @@ import Post5 from '../../assets/post5.jpg';
 import Post6 from '../../assets/post6.jpg';
 import Post7 from '../../assets/post7.jpg';
 import Post8 from '../../assets/post8.jpg';
+import Background from '../../assets/background.svg';
+import './posts.css'
 
 const posts = [
     { id: 1, image: Post1, alt: 'Post 1', link: 'https://www.instagram.com/p/C-T019wtcKd/' },
@@ -20,7 +22,8 @@ const posts = [
 ];
 const Posts = () => {
     return (
-        <div className='bg-[#111928]' id='posts'>
+        <div className='background bg-[#111928]' id='posts'>
+           
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
                 <div className="mx-auto max-w-3xl text-center">
                     <h2 className="text-3xl font-medium text-primary-blue  sm:text-6xl">Insights sobre Psicologia</h2>
@@ -32,7 +35,7 @@ const Posts = () => {
 
 
                 <dl className="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
-                    {posts.map((post) => (<div className="rounded-lg">
+                    {posts.map((post) => (<div className="rounded-lg m-auto">
                         <a key={post.id} href={post.link} target="_blank"  className="group relative block bg-black max-h-72 max-w-72">
                             <img
                                 alt=""
@@ -41,9 +44,9 @@ const Posts = () => {
 
                             <div className="relative p-4 sm:p-6 lg:p-8">
 
-                                <div className="mt-12 sm:mt-14 lg:mt-32">
+                                <div className="mt-40 sm:mt-44 lg:mt-32">
                                     <div
-                                        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                        className="translate-y-12 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                     >
                                       <p className="text-sm text-white">
   Explore e assista nosso conteúdo no Instagram, onde compartilhamos dicas valiosas, insights sobre saúde mental, e momentos do nosso trabalho em psicologia.
