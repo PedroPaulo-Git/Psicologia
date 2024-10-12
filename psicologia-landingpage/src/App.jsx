@@ -11,14 +11,16 @@ import Posts from './components/Posts/Posts'
 function App() {
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
+  
      <Header/>
      <Hero/>
      <About/>
      <Services/>
      <Posts/>
      <Footer/>
-    </>
+ 
+    </div>
   )
 }
 

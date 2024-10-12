@@ -1,22 +1,47 @@
 import React from "react";
 import ModelHeroImage from "../../assets/HeroImage.png";
 import H1Image from "../../assets/H1Image.png";
+import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
+   
     <div className="h-[100%] bg-primary-dark" id="hero">
       <section className="overflow-hidden sm:grid sm:grid-cols-1 items-center bg-gradient-to-r from-zinc-950 to-transparent ">
+    
         <div className="p-8 md:p-12 lg:px-16 lg:pt-0  flex-col flex m-auto ">
           <div className="mx-auto my-11 text-left ltr:sm:text-left rtl:sm:text-right lg:flex lg:flex-row-reverse">
+          <motion.div
+          className="max-w-1/2 max-h-1/2"
+    variants={{
+      hidden:{opacity:0,x:75},
+      visible:{opacity:1,x:0},
+    }}
+    transition={{ duration: 1 }}
+  initial='hidden'
+  animate='visible'
+>
             <img
-              className="w-full lg:h-1/2 lg:w-5/12 object-contain sm:h-[70vw] lg:my-12 my-20 "
+              className="w-full lg:w-[80vh] lg:h-full object-contain sm:h-[70vw] lg:my-2 my-20 "
               src={ModelHeroImage}
               alt=""
             />
+             </motion.div>
+
+             <motion.div
+             className="max-w-1/2 max-h-60 my-auto"
+    variants={{
+      hidden:{opacity:0,x:-90},
+      visible:{opacity:1,x:0},
+    }}
+    transition={{ duration: 2 ,delay:0.25}}
+  initial='hidden'
+  animate='visible'
+>
             <div className="mt-24 lg:my-auto max-w-xs mx-auto lg:max-w-lg 2xl:max-w-3xl text-center lg:ml-12 lg:text-left">
-              <h2 className="text-4xl 2xl:text-8xl  text-blue-light md:text-7xl lg:max-w-4xl relative">
+              <h2 className="text-4xl 2xl:text-8xl text-blue-light md:text-7xl lg:max-w-4xl relative">
                 <img
-                  className="absolute  md:w-14 lg:w-48 lg:right-40 lg:-top-14 "
+                  className="absolute md:w-14 lg:w-48 lg:right-40 lg:-top-14 "
                   src={H1Image}
                   alt=""
                 />
@@ -37,8 +62,10 @@ const Hero = () => {
                 </a>
               </div>
             </div>
+            </motion.div>
           </div>
         </div>
+       
       </section>
     </div>
   );
