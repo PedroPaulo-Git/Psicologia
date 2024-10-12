@@ -30,7 +30,7 @@ const Services = () => {
         className="bg-gray-900 text-white bg-gradient-to-b from-primary-dark to-transparent "
         id="servicos"
       >
-        <div className="mx-auto max-w-sm px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <motion.div
             className="max-w-1/2 max-h-1/2"
             variants={{
