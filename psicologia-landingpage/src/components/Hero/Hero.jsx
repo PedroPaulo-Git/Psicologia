@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="h-[100%] bg-primary-dark" id="hero">
       <section className="overflow-hidden sm:grid sm:grid-cols-1 items-center bg-gradient-to-r from-zinc-950 to-transparent ">
         <div className="p-8 md:p-12 lg:px-16 lg:pt-0  flex-col flex m-auto ">
-          <div className="mx-auto my-11 text-left ltr:sm:text-left rtl:sm:text-right lg:flex lg:flex-row-reverse">
+          <div className="mx-auto lg:my-11 text-left ltr:sm:text-left rtl:sm:text-right lg:flex lg:flex-row-reverse">
             <motion.div
               className="max-w-1/2 max-h-1/2"
               variants={{
@@ -21,7 +21,7 @@ const Hero = () => {
               animate="visible"
             >
               <img
-                className="w-full lg:w-[80vh] lg:h-full object-contain sm:h-[70vw] lg:my-2 my-20 "
+                className="w-full lg:w-[80vh] lg:h-full object-contain sm:h-[70vw] lg:my-2 my-16 "
                 src={ModelHeroImage}
                 alt=""
               />

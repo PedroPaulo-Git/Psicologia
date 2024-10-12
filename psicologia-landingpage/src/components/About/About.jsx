@@ -17,7 +17,8 @@ const About = () => {
       className="bg-primary-dark border-b-[#032536] border-b-4 relative"
       id="sobre"
     >
-      <section>
+      <section
+       ref={ref}>
         <img
           alt=""
           src={Brain}
@@ -34,7 +35,7 @@ const About = () => {
               }}
               initial="hidden"
               animate={isInView ? "visible" : "hidden"} // Animation only runs when in view
-              transition={{ duration: 1}}
+              transition={{ duration: 1,delay:1}}
             >
             
             <div className="relative h-72 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
@@ -55,7 +56,7 @@ const About = () => {
               </span>
 
               <motion.div
-         
+        
               className=""
               variants={{
                 hidden: { opacity: 0, x: 75 },
@@ -63,7 +64,7 @@ const About = () => {
               }}
               initial="hidden"
               animate={isInView ? "visible" : "hidden"} // Animation only runs when in view
-              transition={{ duration: 1}}
+              transition={{ duration: 1,delay:2.5}}
             >
               <h2  className="text-3xl text-primary-blue md:text-8xl mt-5">
                 Sobre Nós
@@ -79,7 +80,7 @@ const About = () => {
                 guiando na busca por uma vida mais leve e equilibrada.
               </p>
 
-              <div  ref={ref} className="mt-4 md:mt-8 text-center lg:text-left">
+              <div   className="mt-4 md:mt-8 text-center lg:text-left">
                 <a
                   href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
                   target="blank"
