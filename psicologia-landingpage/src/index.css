@@ -13,3 +13,6 @@
   box-sizing: border-box;
 }
 /* Default styles */
+html {
+  scroll-behavior: smooth;
+}

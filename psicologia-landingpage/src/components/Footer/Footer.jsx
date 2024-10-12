@@ -19,7 +19,7 @@ import LOGO from '../../assets/LOGO2.png'
   </li>
 
   <li>
-    <a className="text-blue-light transition hover:text-gray-700/75" href="#carreira"> Carreira </a>
+    <a className="text-blue-light transition hover:text-gray-700/75" href="#hero"> Carreira </a>
   </li>
 
   <li>
