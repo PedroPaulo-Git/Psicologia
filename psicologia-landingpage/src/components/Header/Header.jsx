@@ -65,7 +65,7 @@ const Header = () => {
             className="lg:hidden"
           >
             <div className="fixed inset-0 z-10" />
-            <DialogPanel className="fixed  inset-y-0 right-0 z-10 w-1/2 overflow-y-auto bg-gradient-to-r from-[#1d3e4e] to-[#032536] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <DialogPanel className="fixed  inset-y-0 right-0 z-10 w-1/2 overflow-y-auto bg-gradient-to-r from-[#05161f] to-[#012233] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="#" className="-m-1.5 p-1.5"></a>
                 <button
