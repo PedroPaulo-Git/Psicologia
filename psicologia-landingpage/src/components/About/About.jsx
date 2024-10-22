@@ -40,12 +40,12 @@ const About = () => {
             
             <div className="relative h-72 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
        
-              <img
+              {/* <img
                 alt=""
                 src={BackgroundAbout}
                 className="absolute inset-0 object-cover rounded-lg h-full mx-auto "
               />
-             
+              */}
             </div>
             </motion.div>
             <div  className="lg:py-24 relative">
@@ -80,7 +80,7 @@ const About = () => {
                 guiando na busca por uma vida mais leve e equilibrada.
               </p>
 
-              <div   className="mt-4 md:mt-8 text-center lg:text-left">
+              {/* <div   className="mt-4 md:mt-8 text-center lg:text-left">
                 <a
                   href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
                   target="blank"
@@ -89,7 +89,7 @@ const About = () => {
                   Conhecer Mais
                 </a>
                 
-              </div>
+              </div> */}
               </motion.div>
             </div>
           </div>

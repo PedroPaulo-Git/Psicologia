@@ -20,11 +20,11 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             >
-              <img
+              {/* <img
                 className="w-full lg:w-[80vh] lg:h-full object-contain sm:h-[70vw] lg:my-2 my-16 "
                 src={ModelHeroImage}
                 alt=""
-              />
+              /> */}
             </motion.div>
 
             <motion.div
@@ -55,10 +55,10 @@ const Hero = () => {
                   href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
                   className=" m-auto mt-8 lg:m-0 lg:mt-8 flex w-48 items-center  relative z-10 rounded-3xl bg-primary-blue text-sm font-medium text-white transition-all duration-300 hover:bg-[#023047] shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-blue"
                 >
-                  <div className="flex text-center items-center justify-center gap-2 w-full py-2 px-2 ">
+                  {/* <div className="flex text-center items-center justify-center gap-2 w-full py-2 px-2 ">
                     <FaWhatsapp className="w-6 h-1/5" />
                     <p>Agendar Consulta</p>
-                  </div>
+                  </div> */}
                 </a>
               </div>
             </motion.div>

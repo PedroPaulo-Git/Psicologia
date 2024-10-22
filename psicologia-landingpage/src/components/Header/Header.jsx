@@ -30,8 +30,8 @@ const Header = () => {
       <nav class="dark:bg-primary-dark bg-gradient-to-r from-zinc-950 to-transparent border-b-[#032536] border-b-2">
         <div class="max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto p-6 px-2 lg:px-32 lg:p-4  ">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src={LOGO} class="h-28 lg:h-44 -my-10" alt="Flowbite Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-blue-light"></span>
+            {/* <img src={LOGO} class="h-28 lg:h-44 -my-10" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-blue-light"></span> */}
           </a>
           <button
             data-collapse-toggle="navbar-solid-bg"
