@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LOGO from "../../assets/LogoWhite.png";
+import LOGO from "../../assets/logo4.png";
 import { Link } from "react-scroll";
 import {
   Dialog,

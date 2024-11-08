@@ -17,49 +17,57 @@ const posts = [
     id: 1,
     image: Post1,
     alt: "Post 1",
-    link: "https://www.instagram.com/p/C-T019wtcKd/",
+    // link: "https://www.instagram.com/p/C-T019wtcKd/",
+  link:"https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
   },
   {
     id: 2,
     image: Post2,
     alt: "Post 2",
-    link: "https://www.instagram.com/p/C53O0SasqWS/",
+    // link: "https://www.instagram.com/p/C53O0SasqWS/",
+  link:"https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
   },
   {
     id: 3,
     image: Post3,
     alt: "Post 3",
-    link: "https://www.instagram.com/p/C_1LbpPv6xN/",
+    // link: "https://www.instagram.com/p/C_1LbpPv6xN/",
+  link:"https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
   },
   {
     id: 4,
     image: Post4,
     alt: "Post 4",
-    link: "https://www.instagram.com/p/C_35jDsPow4/",
+    // link: "https://www.instagram.com/p/C_35jDsPow4/",
+  link:"https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
   },
   {
     id: 5,
-    image: Post5,
+    image: Post7,
     alt: "Post 5",
-    link: "https://www.instagram.com/p/C_3HUOLvmow/",
+    // link: "https://www.instagram.com/p/C_3HUOLvmow/",
+  link:"https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
   },
   {
     id: 6,
     image: Post6,
     alt: "Post 6",
-    link: "https://www.instagram.com/p/C_YXf_Jvpql/",
+    // link: "https://www.instagram.com/p/C_YXf_Jvpql/",
+  link:"https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
   },
   {
     id: 7,
     image: Post7,
     alt: "Post 7",
-    link: "https://www.instagram.com/p/C_T5xfhvZsN/",
+    // link: "https://www.instagram.com/p/C_T5xfhvZsN/",
+  link:"https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
   },
   {
     id: 8,
-    image: Post8,
+    image: Post7,
     alt: "Post 8",
-    link: "https://www.instagram.com/p/C_tiXlcvLVd/",
+    // link: "https://www.instagram.com/p/C_tiXlcvLVd/",
+  link:"https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
   },
 ];
 const Posts = () => {

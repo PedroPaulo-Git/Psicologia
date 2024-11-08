@@ -1,5 +1,5 @@
 import React from 'react'
-import LOGO from '../../assets/LOGO2.png'
+import LOGO from '../../assets/logo4.png'
  const Footer = () => {
   return (
     <div>
@@ -39,7 +39,8 @@ import LOGO from '../../assets/LOGO2.png'
     <ul className="mt-12 flex justify-center gap-6 md:gap-8">
       <li>
         <a
-          href="https://www.instagram.com/psis.josenildo.e.tifanny/"
+          // href="https://www.instagram.com/psis.josenildo.e.tifanny/"
+           href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
           rel="noreferrer"
           target="_blank"
           className="text-blue-light transition hover:text-gray-700/75"
@@ -57,7 +58,8 @@ import LOGO from '../../assets/LOGO2.png'
 
       <li>
         <a
-          href="https://www.instagram.com/psis.josenildo.e.tifanny/"
+          // href="https://www.instagram.com/psis.josenildo.e.tifanny/"
+           href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
           rel="noreferrer"
           target="_blank"
           className="text-blue-light transition hover:text-gray-700/75"
@@ -75,7 +77,8 @@ import LOGO from '../../assets/LOGO2.png'
 
       <li>
         <a
-          href="https://www.instagram.com/psis.josenildo.e.tifanny/"
+          // href="https://www.instagram.com/psis.josenildo.e.tifanny/"
+           href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
           rel="noreferrer"
           target="_blank"
           className="text-blue-light transition hover:text-gray-700/75"
@@ -91,7 +94,8 @@ import LOGO from '../../assets/LOGO2.png'
 
       <li>
         <a
-          href="https://www.instagram.com/psis.josenildo.e.tifanny/"
+          // href="https://www.instagram.com/psis.josenildo.e.tifanny/"
+           href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."
           rel="noreferrer"
           target="_blank"
           className="text-blue-light transition hover:text-gray-700/75"

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa6";
-import ModelHeroImage from "../../assets/HeroImage.png";
+//import ModelHeroImage from "../../assets/HeroImage.png";
+import ModelHeroImage from "../../assets/psico.png";
 import H1Image from "../../assets/H1Image.png";
 import { motion } from "framer-motion";
 
@@ -21,7 +22,7 @@ const Hero = () => {
               animate="visible"
             >
               <img
-                className="w-full lg:w-[80vh] lg:h-full object-contain sm:h-[70vw] lg:my-2 my-16 "
+                className="w-full lg:w-[70vh] lg:p-[5vh] lg:h-full object-contain sm:h-[70vw] lg:my-2 my-16 "
                 src={ModelHeroImage}
                 alt=""
               />

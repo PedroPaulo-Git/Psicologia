@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from "react";
-import BackgroundAbout from "../../assets/BackgroundAbout.png";
+import BackgroundAbout from "../../assets/BackgroundAbout2.png";
 import Brain from "../../assets/brain2.png";
 import { motion,useInView } from "framer-motion"
 const About = () => {
